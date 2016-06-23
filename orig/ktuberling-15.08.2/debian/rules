@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+
+override_dh_auto_configure:
+	$(overridden_command) -- -DBIN_INSTALL_DIR=/usr/games
+
+override_dh_auto_install:
+	$(overridden_command) --destdir=debian/tmp
+
+generate-icons:
+	while read src dest; do \
+		convert debian/tmp/$$src debian/icons/$$dest; \
+	done <debian/icon-list

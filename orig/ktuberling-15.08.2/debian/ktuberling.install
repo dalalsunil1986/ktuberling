@@ -1,0 +1,18 @@
+../icons/ktuberling-16.xpm /usr/share/pixmaps
+../icons/ktuberling.xpm /usr/share/pixmaps
+usr/games/ktuberling
+usr/share/applications/kde4/ktuberling.desktop
+usr/share/doc/kde/HTML/en/ktuberling/*
+usr/share/icons/hicolor/128x128/apps/ktuberling.png
+usr/share/icons/hicolor/128x128/mimetypes/application-x-tuberling.png
+usr/share/icons/hicolor/16x16/apps/ktuberling.png
+usr/share/icons/hicolor/16x16/mimetypes/application-x-tuberling.png
+usr/share/icons/hicolor/22x22/apps/ktuberling.png
+usr/share/icons/hicolor/22x22/mimetypes/application-x-tuberling.png
+usr/share/icons/hicolor/32x32/apps/ktuberling.png
+usr/share/icons/hicolor/32x32/mimetypes/application-x-tuberling.png
+usr/share/icons/hicolor/48x48/apps/ktuberling.png
+usr/share/icons/hicolor/48x48/mimetypes/application-x-tuberling.png
+usr/share/icons/hicolor/64x64/apps/ktuberling.png
+usr/share/icons/hicolor/64x64/mimetypes/application-x-tuberling.png
+usr/share/kde4/apps/ktuberling/*

@@ -1,0 +1,45 @@
+{
+  "name": "ktuberling",
+  "version": "0.0.1",
+  "description": "KTuberling a simple constructor game suitable for children and adults alike. The idea of the game is based around a once popular doll making concept.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage",
+    "test-coverage-report": "codecov"
+  },
+  "author": "rumax",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rumax/ktuberling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rumax/ktuberling.git"
+  },
+  "homepage": "https://github.com/rumax/ktuberling.git",
+  "dependencies": {
+    "extra-log": "^1.0.0"
+  },
+  "devDependencies": {
+    "codecov": "^3.0.0",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^22.0.4"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}
