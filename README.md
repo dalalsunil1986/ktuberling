@@ -10,6 +10,8 @@ KTuberling a simple constructor game suitable for children and adults alike. The
 
 ### Screenshots
 
+![Demo](https://github.com/rumax/ktuberling/blob/master/docs/demo.gif?raw=true)
+
 ### Howto
 
 KTuberling is a game intended for small children. Of course, it may be suitable for adults who have remained young at heart.
