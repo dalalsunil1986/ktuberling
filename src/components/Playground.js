@@ -10,12 +10,6 @@ export default class Playground extends React.Component {
   static defaultProps = { ground: undefined }
 
 
-  constructor(props) {
-    super(props);
-    this.state = { loading: true };
-  }
-
-
   _setPlayground = (playground) => {
     if (!playground) {
       return;
