@@ -1,0 +1,34 @@
+@import "~bootstrap/less/bootstrap.less";
+@import "~leaflet/dist/leaflet.css";
+
+@nav-bar-height: 72px;
+
+html, body, #app, .app {
+  height: 100%;
+}
+
+body {
+  background: url('./assets/images/bg.jpg') no-repeat 0 0;
+}
+
+.app {
+  .container {
+    position: relative;
+    width: 100%;
+    height: calc(~'100% - @{nav-bar-height}');
+
+    .playground {
+      width: 100%;
+      height: 100%;
+
+      .clickable {
+        cursor: pointer;
+        &, * {
+          pointer-events: auto;
+        }
+      }
+    }
+  }
+
+  @import "./components/busy.less";
+}

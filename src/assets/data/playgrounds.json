@@ -1,0 +1,2629 @@
+[
+  {
+    "name": "Butterflies",
+    "file": "butterflies.svg",
+    "localization": {
+      "bs": "Leptirići",
+      "ca": "Papallones",
+      "ca@valencia": "Papallones",
+      "da": "Sommerfugle",
+      "de": "Schmetterlinge",
+      "el": "Πεταλούδες",
+      "en_GB": "Butterflies",
+      "es": "Mariposas",
+      "et": "Liblikad",
+      "fi": "Perhoset",
+      "fr": "Papillons",
+      "ga": "Butterflies",
+      "gl": "Bolboretas",
+      "hu": "Lepke",
+      "is": "Fiðrildi",
+      "it": "Farfalle",
+      "kk": "Көбелектер",
+      "km": "មេអំបៅ",
+      "ko": "나비",
+      "lt": "Drugeliai",
+      "lv": "Tauriņi",
+      "mr": "फुलपाखरे",
+      "nb": "Sommerfugler",
+      "nds": "Botterlickers",
+      "nl": "Vlinders",
+      "pl": "Motyle",
+      "pt": "Borboletas",
+      "pt_BR": "Borboletas",
+      "ro": "Fluturi",
+      "ru": "Бабочки",
+      "sk": "Motýle",
+      "sl": "Metuljčki",
+      "sr": "Лептирићи",
+      "sr@ijekavian": "Лептирићи",
+      "sr@ijekavianlatin": "Leptirići",
+      "sr@latin": "Leptirići",
+      "sv": "Fjärilar",
+      "tr": "Kelebekler",
+      "uk": "Метелики",
+      "x-test": "xxButterfliesxx",
+      "zh_CN": "蝴蝶飞",
+      "zh_TW": "蝴蝶"
+    },
+    "bgcolor": "#fff",
+    "items": [
+      {
+        "name": "wingsYellow",
+        "scale": "8",
+        "sound": "butterflies_wing"
+      },
+      {
+        "name": "wingsPurple",
+        "scale": "8",
+        "sound": "butterflies_wing"
+      },
+      {
+        "name": "wingsPink",
+        "scale": "8",
+        "sound": "butterflies_wing"
+      },
+      {
+        "name": "bodyBrown",
+        "scale": "4",
+        "sound": "butterflies_body"
+      },
+      {
+        "name": "bodyYellow",
+        "scale": "4",
+        "sound": "butterflies_body"
+      },
+      {
+        "name": "bodyRed",
+        "scale": "4",
+        "sound": "butterflies_body"
+      },
+      {
+        "name": "spiralLeft",
+        "scale": "2",
+        "sound": "butterflies_spiral"
+      },
+      {
+        "name": "spiralRight",
+        "scale": "2",
+        "sound": "butterflies_spiral"
+      },
+      {
+        "name": "eyeLeft",
+        "scale": "2",
+        "sound": "butterflies_eye"
+      },
+      {
+        "name": "eyeRight",
+        "scale": "2",
+        "sound": "butterflies_eye"
+      },
+      {
+        "name": "purpleLeft",
+        "scale": "2",
+        "sound": "butterflies_purple_shape"
+      },
+      {
+        "name": "purpleRight",
+        "scale": "2",
+        "sound": "butterflies_purple_shape"
+      },
+      {
+        "name": "heartWhiteLeft",
+        "scale": "2",
+        "sound": "butterflies_heart"
+      },
+      {
+        "name": "heartWhiteRight",
+        "scale": "2",
+        "sound": "butterflies_heart"
+      },
+      {
+        "name": "yellowHeartLeft",
+        "scale": "2",
+        "sound": "butterflies_heart"
+      },
+      {
+        "name": "yellowHeartRight",
+        "scale": "2",
+        "sound": "butterflies_heart"
+      },
+      {
+        "name": "circles",
+        "scale": "2",
+        "sound": "butterflies_circles"
+      },
+      {
+        "name": "circlesSmall",
+        "scale": "2",
+        "sound": "butterflies_circles"
+      },
+      {
+        "name": "circleBlue",
+        "scale": "2",
+        "sound": "butterflies_circle"
+      },
+      {
+        "name": "circleRed",
+        "scale": "2",
+        "sound": "butterflies_circle"
+      },
+      {
+        "name": "circleGreen",
+        "scale": "2",
+        "sound": "butterflies_circle"
+      },
+      {
+        "name": "circleYellow",
+        "scale": "2",
+        "sound": "butterflies_circle"
+      },
+      {
+        "name": "circlePurple",
+        "scale": "2",
+        "sound": "butterflies_circle"
+      }
+    ]
+  },
+  {
+    "name": "Christmas",
+    "file": "christmas.svg",
+    "localization": {
+      "ast": "Nadal",
+      "bs": "Božić",
+      "ca": "Nadal",
+      "ca@valencia": "Nadal",
+      "cs": "Vánoce",
+      "da": "Jul",
+      "de": "Weihnachten",
+      "el": "Χριστούγεννα",
+      "en_GB": "Christmas",
+      "es": "Navidad",
+      "et": "Jõulud",
+      "eu": "Gabonak",
+      "fa": "کریسمس",
+      "fi": "Joulu",
+      "fr": "Noël",
+      "ga": "Nollaig",
+      "gl": "Nadal",
+      "hne": "क्रिसमस",
+      "hu": "Karácsony",
+      "is": "Jól",
+      "it": "Natale",
+      "ja": "クリスマス",
+      "kk": "Милад",
+      "km": "បុណ្យណូអែល",
+      "ko": "크리스마스",
+      "lt": "Kalėdos",
+      "lv": "Ziemassvētki",
+      "mr": "क्रिसमस",
+      "nb": "Jul",
+      "nds": "Wiehnachten",
+      "nl": "Christmas",
+      "nn": "Jul",
+      "pl": "Święta",
+      "pt": "Natal",
+      "pt_BR": "Natal",
+      "ro": "Crăciunul",
+      "ru": "Рождество",
+      "sk": "Vianoce",
+      "sl": "Božič",
+      "sr": "Божић",
+      "sr@ijekavian": "Божић",
+      "sr@ijekavianlatin": "Božić",
+      "sr@latin": "Božić",
+      "sv": "Jul",
+      "te": "క్రిస్మస్",
+      "tr": "Yılbaşı",
+      "ug": "روژدېستۋو",
+      "uk": "Різдво",
+      "wa": "Noyé",
+      "x-test": "xxChristmasxx",
+      "zh_CN": "圣诞",
+      "zh_TW": "聖誕節"
+    },
+    "bgcolor": "#00275f",
+    "items": [
+      {
+        "name": "g_comet_left",
+        "sound": "xmas_comet"
+      },
+      {
+        "name": "g_comet_right",
+        "sound": "xmas_comet"
+      },
+      {
+        "name": "g_yellow_star_L",
+        "sound": "xmas_star"
+      },
+      {
+        "name": "g_blue_ball_XL",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_red_ball_S",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_red_ball_M",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_yellow_ball_S",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_green_ball_XL",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_green_ball_M",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_yellow_ball_M",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_blue_ball_M",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_red_ball_L",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_green_ball_S",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_shiny_star_L",
+        "sound": "xmas_star"
+      },
+      {
+        "name": "g_tree_L",
+        "sound": "xmas_tree"
+      },
+      {
+        "name": "g_rabbit_BW",
+        "sound": "xmas_rabbit"
+      },
+      {
+        "name": "g_rabbit_brown",
+        "sound": "xmas_rabbit"
+      },
+      {
+        "name": "g_snowflake_L",
+        "sound": "xmas_snowflake"
+      },
+      {
+        "name": "g_tux_L",
+        "sound": "xmas_tux"
+      },
+      {
+        "name": "g_tux_S",
+        "sound": "xmas_tux"
+      },
+      {
+        "name": "g_tux_she",
+        "sound": "xmas_tux"
+      },
+      {
+        "name": "g_red_ball_XL",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_blue_ball_S",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_blue_ball_L",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_green_ball_L",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_yellow_ball_L",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_shiny_star_S",
+        "sound": "xmas_star"
+      },
+      {
+        "name": "g_shiny_star_M",
+        "sound": "xmas_star"
+      },
+      {
+        "name": "g_yellow_star_S",
+        "sound": "xmas_star"
+      },
+      {
+        "name": "g_tree_M",
+        "sound": "xmas_tree"
+      },
+      {
+        "name": "g_snowflake_S",
+        "sound": "xmas_snowflake"
+      },
+      {
+        "name": "g_mistletoe_right",
+        "sound": "xmas_mistletoe"
+      },
+      {
+        "name": "g_snowman",
+        "sound": "xmas_snowman"
+      },
+      {
+        "name": "g_green_present",
+        "sound": "xmas_present"
+      },
+      {
+        "name": "g_yellow_present",
+        "sound": "xmas_present"
+      },
+      {
+        "name": "g_red_present",
+        "sound": "xmas_present"
+      },
+      {
+        "name": "g_mistletoe_left",
+        "sound": "xmas_mistletoe"
+      },
+      {
+        "name": "g_moon_right",
+        "sound": "xmas_moon"
+      },
+      {
+        "name": "g_moon_left",
+        "sound": "xmas_moon"
+      },
+      {
+        "name": "g_turtle",
+        "sound": "xmas_turtle"
+      },
+      {
+        "name": "g_blue_present",
+        "sound": "xmas_present"
+      },
+      {
+        "name": "g_owl",
+        "sound": "xmas_owl"
+      },
+      {
+        "name": "g_tree_S",
+        "sound": "xmas_tree"
+      },
+      {
+        "name": "g_yellow_ball_XL",
+        "sound": "xmas_ball"
+      },
+      {
+        "name": "g_candle_L",
+        "sound": "xmas_candle"
+      },
+      {
+        "name": "g_candle_S",
+        "sound": "xmas_candle"
+      },
+      {
+        "name": "g_white_star_S",
+        "sound": "xmas_star"
+      },
+      {
+        "name": "g_white_star_L",
+        "sound": "xmas_star"
+      },
+      {
+        "name": "g_shoe",
+        "sound": "xmas_shoe"
+      },
+      {
+        "name": "g_reindeer",
+        "sound": "xmas_reindeer"
+      },
+      {
+        "name": "g_rabbit_back",
+        "sound": "xmas_rabbit"
+      },
+      {
+        "name": "g_lights_L",
+        "sound": "xmas_lights"
+      },
+      {
+        "name": "g_lights_M",
+        "sound": "xmas_lights"
+      },
+      {
+        "name": "g_lights_S",
+        "sound": "xmas_lights"
+      },
+      {
+        "name": "g_red_garland",
+        "sound": "xmas_garland"
+      },
+      {
+        "name": "g_yellow_garland_L",
+        "sound": "xmas_garland"
+      },
+      {
+        "name": "g_blue_garland_L",
+        "sound": "xmas_garland"
+      },
+      {
+        "name": "g_silver_garland",
+        "sound": "xmas_garland"
+      },
+      {
+        "name": "g_yellow_garland_S",
+        "sound": "xmas_garland"
+      },
+      {
+        "name": "g_blue_garland_S",
+        "sound": "xmas_garland"
+      },
+      {
+        "name": "g_moon_boot_red",
+        "sound": "xmas_boot"
+      },
+      {
+        "name": "g_moon_boot_green",
+        "sound": "xmas_boot"
+      },
+      {
+        "name": "g_moon_boot_blue",
+        "sound": "xmas_boot"
+      },
+      {
+        "name": "g_moon_boot_yellow",
+        "sound": "xmas_boot"
+      },
+      {
+        "name": "g_angel",
+        "sound": "xmas_angel"
+      }
+    ]
+  },
+  {
+    "name": "Potato Guy",
+    "file": "default_theme.svg",
+    "localization": {
+      "af": "Aartappel Man",
+      "ast": "Pá Pataca",
+      "be": "Бульбяш",
+      "bn": "পটেটো গাই",
+      "br": "Paotr ar patatez",
+      "bs": "Krompirko",
+      "ca": "Home Patata",
+      "ca@valencia": "Home Patata",
+      "cs": "Bramborový chlapík",
+      "cy": "Potato Guy",
+      "da": "Kartoffelfyren",
+      "de": "Kartoffelknülch",
+      "el": "Πατατάνθρωπος",
+      "en_GB": "Potato Guy",
+      "eo": "Terpomulo",
+      "es": "Señor Patata",
+      "et": "Kartulimees",
+      "eu": "Patata jauna",
+      "fa": "مرد سیب زمینی",
+      "fi": "Perunamies",
+      "fr": "Monsieur Patate",
+      "ga": "Potato Guy",
+      "gl": "O home pataca",
+      "he": "מר תפוח אדמה",
+      "hne": "आलू परसाद",
+      "hr": "Krumpirko",
+      "hu": "Krumpli bácsi",
+      "is": "Kartöflukall",
+      "it": "Uomo patata",
+      "ja": "ポテトマン",
+      "kk": "Картопбай",
+      "km": "មនុស្ស​ដំឡូង",
+      "ko": "감자돌이",
+      "lt": "Bulvinis Vyrukas",
+      "lv": "Kartupeļu vīrs",
+      "mk": "Компирко",
+      "mr": "बटाटा व्यक्ति",
+      "nb": "Potetfyren",
+      "nds": "Kantüffelfips",
+      "ne": "पोट्याटो गाइ",
+      "nl": "Aardappelmannetje",
+      "nn": "Potetfyren",
+      "pa": "ਆਲੂ ਮੁੰਡਾ",
+      "pl": "Ziemniaczany facet",
+      "pt": "Homem Batata",
+      "pt_BR": "Homem-Batata",
+      "ro": "Domnul Cartof",
+      "ru": "Картофельный парень",
+      "se": "Buđetolmmái",
+      "sk": "Zemiakový chlapec",
+      "sl": "Krompirček",
+      "sr": "Кромпирко",
+      "sr@ijekavian": "Кромпирко",
+      "sr@ijekavianlatin": "Krompirko",
+      "sr@latin": "Krompirko",
+      "sv": "Potatismannen",
+      "ta": "உருளைகிழங்கு வீரர்",
+      "tg": "Писараки Картошкагин",
+      "tr": "Patates Adam",
+      "ug": "Potato Guy",
+      "uk": "Картопляний хлопець",
+      "vi": "Potato Guy",
+      "wa": "Monsieu Crompire",
+      "xh": "Umfana wetapile",
+      "x-test": "xxPotato Guyxx",
+      "zh_CN": "土豆小子",
+      "zh_TW": "馬鈴薯小子"
+    },
+    "bgcolor": "#a4c0e4",
+    "items": [
+      {
+        "name": "eyes_1",
+        "sound": "eye"
+      },
+      {
+        "name": "eyes_2",
+        "sound": "eye"
+      },
+      {
+        "name": "eyes_3",
+        "sound": "eye"
+      },
+      {
+        "name": "eyes_4",
+        "sound": "eye"
+      },
+      {
+        "name": "eyes_5",
+        "sound": "eye"
+      },
+      {
+        "name": "eyes_6",
+        "sound": "eye"
+      },
+      {
+        "name": "eyes_7",
+        "sound": "eye"
+      },
+      {
+        "name": "eyes_8",
+        "sound": "eye"
+      },
+      {
+        "name": "eyes_9",
+        "sound": "eye"
+      },
+      {
+        "name": "eyes_10",
+        "sound": "eye"
+      },
+      {
+        "name": "eyes_11",
+        "sound": "eye"
+      },
+      {
+        "name": "eyebrows1",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrows2",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrows3",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrows4",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrows5",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrows6",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrows7",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrows8",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "nose_1",
+        "sound": "nose"
+      },
+      {
+        "name": "nose_2",
+        "sound": "nose"
+      },
+      {
+        "name": "nose_3",
+        "sound": "nose"
+      },
+      {
+        "name": "nose_4",
+        "sound": "nose"
+      },
+      {
+        "name": "nose_5",
+        "sound": "nose"
+      },
+      {
+        "name": "nose_6",
+        "sound": "nose"
+      },
+      {
+        "name": "ear1",
+        "sound": "ear"
+      },
+      {
+        "name": "ear2",
+        "sound": "ear"
+      },
+      {
+        "name": "ear3",
+        "sound": "ear"
+      },
+      {
+        "name": "ear4",
+        "sound": "ear"
+      },
+      {
+        "name": "ear5",
+        "sound": "ear"
+      },
+      {
+        "name": "ear6",
+        "sound": "ear"
+      },
+      {
+        "name": "ear7",
+        "sound": "ear"
+      },
+      {
+        "name": "ear8",
+        "sound": "ear"
+      },
+      {
+        "name": "earring1",
+        "sound": "earring"
+      },
+      {
+        "name": "earring2",
+        "sound": "earring"
+      },
+      {
+        "name": "flowers1",
+        "sound": "flower"
+      },
+      {
+        "name": "mouth1",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth2",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth3",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth4",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth5",
+        "sound": "mouth"
+      },
+      {
+        "name": "hat1",
+        "sound": "hat",
+        "scale": "2"
+      },
+      {
+        "name": "hat2",
+        "sound": "hat",
+        "scale": "2"
+      },
+      {
+        "name": "hat3",
+        "sound": "hat",
+        "scale": "2"
+      },
+      {
+        "name": "hat4",
+        "sound": "hat",
+        "scale": "2"
+      },
+      {
+        "name": "hat5",
+        "sound": "hat",
+        "scale": "2"
+      },
+      {
+        "name": "jaket1",
+        "sound": "coat",
+        "scale": "2"
+      },
+      {
+        "name": "jaket2",
+        "sound": "coat",
+        "scale": "2"
+      },
+      {
+        "name": "jaket3",
+        "sound": "coat",
+        "scale": "2"
+      },
+      {
+        "name": "jaket4",
+        "sound": "coat",
+        "scale": "2"
+      },
+      {
+        "name": "jaket5",
+        "sound": "skirt",
+        "scale": "2"
+      },
+      {
+        "name": "jaket6",
+        "sound": "shorts",
+        "scale": "2"
+      },
+      {
+        "name": "cane1",
+        "sound": "stick",
+        "scale": "2"
+      },
+      {
+        "name": "shue_1",
+        "sound": "shoe",
+        "scale": "2"
+      },
+      {
+        "name": "shue_2",
+        "sound": "shoe",
+        "scale": "2"
+      },
+      {
+        "name": "shue_3",
+        "sound": "shoe",
+        "scale": "2"
+      },
+      {
+        "name": "shue_4",
+        "sound": "shoe",
+        "scale": "2"
+      },
+      {
+        "name": "shue_5",
+        "sound": "shoe",
+        "scale": "2"
+      },
+      {
+        "name": "shue_6",
+        "sound": "shoe",
+        "scale": "2"
+      },
+      {
+        "name": "shue_7",
+        "sound": "shoe",
+        "scale": "2"
+      },
+      {
+        "name": "shue_8",
+        "sound": "shoe",
+        "scale": "2"
+      },
+      {
+        "name": "shue_9",
+        "sound": "shoe",
+        "scale": "2"
+      },
+      {
+        "name": "shue_10",
+        "sound": "shoe",
+        "scale": "2"
+      },
+      {
+        "name": "hair_1",
+        "sound": "moustache"
+      },
+      {
+        "name": "hair_2",
+        "sound": "hair",
+        "scale": "2"
+      },
+      {
+        "name": "hair_3",
+        "sound": "hair",
+        "scale": "2"
+      },
+      {
+        "name": "hair_4",
+        "sound": "hair",
+        "scale": "2"
+      },
+      {
+        "name": "hair_5",
+        "sound": "hair",
+        "scale": "2"
+      },
+      {
+        "name": "hair_6",
+        "sound": "hair",
+        "scale": "2"
+      },
+      {
+        "name": "hair_7",
+        "sound": "hair",
+        "scale": "1.5"
+      },
+      {
+        "name": "bow_1",
+        "sound": "bow"
+      },
+      {
+        "name": "bow_2",
+        "sound": "bow"
+      },
+      {
+        "name": "tie_1",
+        "sound": "tie"
+      },
+      {
+        "name": "glass_1",
+        "sound": "sunglasses"
+      },
+      {
+        "name": "glass_0",
+        "sound": "spectacles"
+      },
+      {
+        "name": "ball1",
+        "sound": "ball",
+        "scale": "2"
+      },
+      {
+        "name": "ball2",
+        "sound": "ball",
+        "scale": "1.5"
+      }
+    ]
+  },
+  {
+    "name": "Ancient Egypt",
+    "file": "egypt.svg",
+    "localization": {
+      "ast": "Antiguu Exiptu",
+      "bs": "Drevni Egipat",
+      "ca": "Egipte antic",
+      "ca@valencia": "Egipte antic",
+      "cs": "Starověký Egypt",
+      "da": "Oldtidens Egypten",
+      "de": "Antikes Ägypten",
+      "el": "Αρχαία Αίγυπτος",
+      "en_GB": "Ancient Egypt",
+      "es": "Antiguo Egipto",
+      "et": "Vana-Egiptus",
+      "eu": "Egipto zaharra",
+      "fa": "مصر باستان",
+      "fi": "Muinainen Egypti",
+      "fr": "Égypte ancienne",
+      "ga": "An tSean-Éigipt",
+      "gl": "Antigo Exipto",
+      "hne": "पुरातन कालीन मिस्र",
+      "hu": "Ókori Egyiptom",
+      "is": "Fornegypstaland",
+      "it": "Antico Egitto",
+      "ja": "古代エジプト",
+      "kk": "Көне Мысыр",
+      "km": "អេហ្ស៊ីប​បុរាណ",
+      "ko": "고대 이집트",
+      "lt": "Senovės Egiptas",
+      "lv": "Senā Ēģipte",
+      "mr": "प्राचीन इजिप्त",
+      "nb": "Egypt i oldtida",
+      "nds": "Oolt Ägypten",
+      "nl": "Oude Egypte",
+      "nn": "Egypt i oldtida",
+      "pl": "Starożytny Egipt",
+      "pt": "Antigo Egipto",
+      "pt_BR": "Antigo Egito",
+      "ro": "Egiptul Antic",
+      "ru": "Древний Египет",
+      "sk": "Staroveký Egypt",
+      "sl": "Starodavni Egipt",
+      "sr": "Стари Египат",
+      "sr@ijekavian": "Стари Египат",
+      "sr@ijekavianlatin": "Stari Egipat",
+      "sr@latin": "Stari Egipat",
+      "sv": "Forntida Egypten",
+      "te": "పురాతన ఈజిప్ట్",
+      "tr": "Eski Mısır",
+      "uk": "Давній Єгипет",
+      "x-test": "xxAncient Egyptxx",
+      "zh_CN": "古埃及",
+      "zh_TW": "古埃及"
+    },
+    "bgcolor": "#8f6b32",
+    "items": [
+      {
+        "name": "build1",
+        "sound": "egypt_pyramid"
+      },
+      {
+        "name": "build2",
+        "sound": "egypt_pyramid"
+      },
+      {
+        "name": "build3",
+        "sound": "egypt_column"
+      },
+      {
+        "name": "build4",
+        "sound": "egypt_sphynx"
+      },
+      {
+        "name": "build5",
+        "sound": "egypt_road"
+      },
+      {
+        "name": "build6",
+        "sound": "egypt_road"
+      },
+      {
+        "name": "build7",
+        "sound": "egypt_well"
+      },
+      {
+        "name": "build8",
+        "sound": "egypt_road"
+      },
+      {
+        "name": "build9",
+        "sound": "egypt_road"
+      },
+      {
+        "name": "build10",
+        "sound": "egypt_bridge"
+      },
+      {
+        "name": "build11",
+        "sound": "egypt_arch"
+      },
+      {
+        "name": "build12",
+        "sound": "egypt_arch"
+      },
+      {
+        "name": "live1",
+        "sound": "egypt_donkey"
+      },
+      {
+        "name": "live2",
+        "sound": "egypt_donkey"
+      },
+      {
+        "name": "live3",
+        "sound": "egypt_cart"
+      },
+      {
+        "name": "live4",
+        "sound": "egypt_cart"
+      },
+      {
+        "name": "live5",
+        "sound": "egypt_girl"
+      },
+      {
+        "name": "live6",
+        "sound": "egypt_boy"
+      },
+      {
+        "name": "live7",
+        "sound": "egypt_camel"
+      },
+      {
+        "name": "live8",
+        "sound": "egypt_man"
+      },
+      {
+        "name": "live9",
+        "sound": "egypt_woman"
+      },
+      {
+        "name": "live10",
+        "sound": "egypt_camel"
+      },
+      {
+        "name": "live11",
+        "sound": "egypt_man"
+      },
+      {
+        "name": "live12",
+        "sound": "egypt_woman"
+      },
+      {
+        "name": "nat1",
+        "sound": "egypt_palmtree"
+      },
+      {
+        "name": "nat2",
+        "sound": "egypt_birds"
+      },
+      {
+        "name": "nat3",
+        "sound": "egypt_oasis"
+      },
+      {
+        "name": "nat4",
+        "sound": "egypt_grass"
+      },
+      {
+        "name": "nat5",
+        "sound": "egypt_grass"
+      },
+      {
+        "name": "nat6",
+        "sound": "egypt_oasis"
+      },
+      {
+        "name": "nat7",
+        "sound": "egypt_palmtree"
+      },
+      {
+        "name": "nat8",
+        "sound": "egypt_palmtree"
+      },
+      {
+        "name": "nat9",
+        "sound": "egypt_palmtree"
+      }
+    ]
+  },
+  {
+    "name": "The Moon",
+    "file": "moon.svg",
+    "localization": {
+      "ast": "La Lluna",
+      "bs": "Mjesec",
+      "ca": "La Lluna",
+      "ca@valencia": "La Lluna",
+      "cs": "Měsíc",
+      "da": "Månen",
+      "de": "Der Mond",
+      "el": "Η Σελήνη",
+      "en_GB": "The Moon",
+      "eo": "La luno",
+      "es": "La luna",
+      "et": "Kuu",
+      "eu": "Ilargia",
+      "fa": "ماه",
+      "fi": "Kuu",
+      "fr": "La Lune",
+      "ga": "An Ghealach",
+      "gl": "A lúa",
+      "hne": "चन्दा",
+      "hu": "Hold",
+      "is": "Tunglið",
+      "it": "La Luna",
+      "ja": "月",
+      "kk": "Ай",
+      "km": "ព្រះច័ន្ទ",
+      "ko": "달나라",
+      "lt": "Mėnulis",
+      "lv": "Mēness",
+      "mr": "चन्द्र",
+      "nb": "Månen",
+      "nds": "De Maand",
+      "nl": "De maan",
+      "nn": "Månen",
+      "pl": "Księżyc",
+      "pt": "A Lua",
+      "pt_BR": "A Lua",
+      "ro": "Luna",
+      "ru": "Луна",
+      "sk": "Mesiac",
+      "sl": "Luna",
+      "sr": "Месец",
+      "sr@ijekavian": "Мјесец",
+      "sr@ijekavianlatin": "Mjesec",
+      "sr@latin": "Mesec",
+      "sv": "Månen",
+      "te": "చంద్రుడు",
+      "tr": "Ay",
+      "uk": "Місяць",
+      "x-test": "xxThe Moonxx",
+      "zh_CN": "月亮",
+      "zh_TW": "月亮的臉"
+    },
+    "bgcolor": "#00275f",
+    "items": [
+      {
+        "name": "astro1",
+        "sound": "moon_earth"
+      },
+      {
+        "name": "astro2",
+        "sound": "moon_planet"
+      },
+      {
+        "name": "astro3",
+        "sound": "moon_star"
+      },
+      {
+        "name": "astro4",
+        "sound": "moon_star"
+      },
+      {
+        "name": "astro5",
+        "sound": "moon_fallingstar"
+      },
+      {
+        "name": "astro6",
+        "sound": "moon_fallingstar"
+      },
+      {
+        "name": "build1",
+        "sound": "moon_hotel"
+      },
+      {
+        "name": "build2",
+        "sound": "moon_sign"
+      },
+      {
+        "name": "build3",
+        "sound": "moon_radar"
+      },
+      {
+        "name": "build4",
+        "sound": "moon_radar"
+      },
+      {
+        "name": "live1",
+        "sound": "moon_monster"
+      },
+      {
+        "name": "live2",
+        "sound": "moon_monster"
+      },
+      {
+        "name": "live3",
+        "sound": "moon_astronaut"
+      },
+      {
+        "name": "live4",
+        "sound": "moon_astronaut"
+      },
+      {
+        "name": "live5",
+        "sound": "moon_alien"
+      },
+      {
+        "name": "live6",
+        "sound": "moon_alien"
+      },
+      {
+        "name": "live7",
+        "sound": "moon_alien"
+      },
+      {
+        "name": "live8",
+        "sound": "moon_alien"
+      },
+      {
+        "name": "ship1",
+        "sound": "moon_moonwalker"
+      },
+      {
+        "name": "ship2",
+        "sound": "moon_moonwalker"
+      },
+      {
+        "name": "ship3",
+        "sound": "moon_satellite"
+      },
+      {
+        "name": "ship4",
+        "sound": "moon_satellite"
+      },
+      {
+        "name": "ship5",
+        "sound": "moon_ufo"
+      },
+      {
+        "name": "ship6",
+        "sound": "moon_rocket"
+      },
+      {
+        "name": "ship7",
+        "sound": "moon_rocket"
+      },
+      {
+        "name": "ship8",
+        "sound": "moon_rocket"
+      }
+    ]
+  },
+  {
+    "name": "Pizzeria",
+    "file": "pizzeria.svg",
+    "localization": {
+      "ast": "Pizzería",
+      "bs": "Picerija",
+      "ca": "Pizzeria",
+      "ca@valencia": "Pizzeria",
+      "cs": "Pizzerie",
+      "da": "Pizzeria",
+      "de": "Pizzeria",
+      "el": "Πιτσαρία",
+      "en_GB": "Pizzeria",
+      "es": "Pizzería",
+      "et": "Pitsabaar",
+      "eu": "Pizzategia",
+      "fa": "پیتزایی",
+      "fi": "Pizzeria",
+      "fr": "Pizzeria",
+      "ga": "Pizzeria",
+      "gl": "Pizzaría",
+      "hne": "पिजेरिया",
+      "hu": "Pizzéria",
+      "is": "Pítsustaður",
+      "it": "Pizzeria",
+      "ja": "ピザ屋さん",
+      "kk": "Пицерия",
+      "km": "Pizzeria",
+      "ko": "피자",
+      "lt": "Picerija",
+      "lv": "Picērija",
+      "mr": "पिझेरिया",
+      "nb": "Pizzeria",
+      "nds": "Pizzeria",
+      "nl": "Pizzeria",
+      "nn": "Pizzeria",
+      "pl": "Pizzeria",
+      "pt": "Pizzaria",
+      "pt_BR": "Pizzaria",
+      "ro": "Pizzeria",
+      "ru": "Пиццерия",
+      "sk": "Pizzeria",
+      "sl": "Picerija",
+      "sr": "Пицерија",
+      "sr@ijekavian": "Пицерија",
+      "sr@ijekavianlatin": "Picerija",
+      "sr@latin": "Picerija",
+      "sv": "Pizzeria",
+      "te": "పిజ్జెరియా",
+      "tr": "Pizzeria",
+      "uk": "Піцерія",
+      "x-test": "xxPizzeriaxx",
+      "zh_CN": "比萨",
+      "zh_TW": "Pizzeria"
+    },
+    "bgcolor": "#e8a560",
+    "items": [
+      {
+        "name": "pepper1",
+        "sound": "pizzeria_pepper"
+      },
+      {
+        "name": "pepper2",
+        "sound": "pizzeria_pepper"
+      },
+      {
+        "name": "pepper3",
+        "sound": "pizzeria_pepper"
+      },
+      {
+        "name": "pineapple",
+        "sound": "pizzeria_pineapple"
+      },
+      {
+        "name": "olive1",
+        "sound": "pizzeria_olive"
+      },
+      {
+        "name": "olive2",
+        "sound": "pizzeria_olive"
+      },
+      {
+        "name": "olive3",
+        "sound": "pizzeria_olive"
+      },
+      {
+        "name": "olive4",
+        "sound": "pizzeria_olive"
+      },
+      {
+        "name": "tomato",
+        "sound": "pizzeria_tomato"
+      },
+      {
+        "name": "cucumber",
+        "sound": "pizzeria_cucumber"
+      },
+      {
+        "name": "salami",
+        "sound": "pizzeria_salami"
+      },
+      {
+        "name": "mushroom",
+        "sound": "pizzeria_mushroom"
+      },
+      {
+        "name": "pepperoni1",
+        "sound": "pizzeria_pepperoni"
+      },
+      {
+        "name": "pepperoni2",
+        "sound": "pizzeria_pepperoni"
+      },
+      {
+        "name": "oregano1",
+        "sound": "pizzeria_oregano"
+      },
+      {
+        "name": "oregano2",
+        "sound": "pizzeria_oregano"
+      },
+      {
+        "name": "cheese1",
+        "sound": "pizzeria_cheese"
+      },
+      {
+        "name": "cheese2",
+        "sound": "pizzeria_cheese"
+      },
+      {
+        "name": "onion1",
+        "sound": "pizzeria_onion"
+      },
+      {
+        "name": "onion2",
+        "sound": "pizzeria_onion"
+      },
+      {
+        "name": "brocolli",
+        "sound": "pizzeria_brocolli"
+      },
+      {
+        "name": "anchois",
+        "sound": "pizzeria_anchovy"
+      },
+      {
+        "name": "bacon",
+        "sound": "pizzeria_bacon"
+      }
+    ]
+  },
+  {
+    "name": "Potato Guy 2",
+    "file": "potato-game.svg",
+    "localization": {
+      "ast": "Pá Pataca 2",
+      "bs": "Krompirko 2",
+      "ca": "Home Patata 2",
+      "ca@valencia": "Home Patata 2",
+      "cs": "Bramborový chlapík 2",
+      "da": "Kartoffelfyren 2",
+      "de": "Kartoffelknülch 2",
+      "el": "Πατατάνθρωπος 2",
+      "en_GB": "Potato Guy 2",
+      "eo": "Terpomulo 2",
+      "es": "Señor Patata 2",
+      "et": "Kartulimees 2",
+      "eu": "Patata jauna 2",
+      "fa": "مرد سیب زمینی ۲",
+      "fi": "Toinen perunamies",
+      "fr": "Monsieur Patate 2",
+      "ga": "Potato Guy 2",
+      "gl": "O home pataca 2",
+      "hne": "आलू परसाद २",
+      "hu": "Krumpli bácsi visszatér",
+      "is": "Kartöflukall 2",
+      "it": "Uomo patata 2",
+      "ja": "ポテトマン 2",
+      "kk": "Картопбай 2",
+      "km": "មនុស្ស​ដំឡូង ២",
+      "ko": "감자돌이 2",
+      "lt": "Bulvinis Vyrukas 2",
+      "lv": "Kartupeļu vīrs 2",
+      "mr": "बटाटा व्यक्ति 2",
+      "nb": "Potetfyren 2",
+      "nds": "Kantüffelfips 2",
+      "nl": "Aardappelmannetje 2",
+      "nn": "Potetfyren 2",
+      "pl": "Ziemniaczany facet 2",
+      "pt": "Homem Batata 2",
+      "pt_BR": "Homem-Batata 2",
+      "ro": "Domnul Cartof 2",
+      "ru": "Картофельный парень 2",
+      "sk": "Zemiakový chlapec 2",
+      "sl": "Krompirček 2",
+      "sr": "Кромпирко 2",
+      "sr@ijekavian": "Кромпирко 2",
+      "sr@ijekavianlatin": "Krompirko 2",
+      "sr@latin": "Krompirko 2",
+      "sv": "Potatismannen 2",
+      "tr": "Patates Adam 2",
+      "uk": "Картопляний хлопець 2",
+      "wa": "Monsieu Crompire 2",
+      "x-test": "xxPotato Guy 2xx",
+      "zh_CN": "土豆小子二代",
+      "zh_TW": "馬鈴薯小子 2"
+    },
+    "bgcolor": "#e7ddae",
+    "items": [
+      {
+        "name": "nose01",
+        "sound": "nose"
+      },
+      {
+        "name": "nose02",
+        "sound": "nose"
+      },
+      {
+        "name": "nose03",
+        "sound": "nose"
+      },
+      {
+        "name": "nose04",
+        "sound": "nose"
+      },
+      {
+        "name": "hair01",
+        "sound": "hair"
+      },
+      {
+        "name": "hair02",
+        "sound": "hair"
+      },
+      {
+        "name": "hair03",
+        "sound": "hair"
+      },
+      {
+        "name": "hair04",
+        "sound": "hair"
+      },
+      {
+        "name": "glasses01",
+        "sound": "sunglasses"
+      },
+      {
+        "name": "glasses02",
+        "sound": "spectacles"
+      },
+      {
+        "name": "umbrello",
+        "sound": "umbrella"
+      },
+      {
+        "name": "tie01",
+        "sound": "tie"
+      },
+      {
+        "name": "tie02",
+        "sound": "tie"
+      },
+      {
+        "name": "moustache01",
+        "sound": "moustache"
+      },
+      {
+        "name": "moustache02",
+        "sound": "moustache"
+      },
+      {
+        "name": "moustache03_1",
+        "sound": "moustache"
+      },
+      {
+        "name": "moustache03_2",
+        "sound": "moustache"
+      },
+      {
+        "name": "moustache04_1",
+        "sound": "moustache"
+      },
+      {
+        "name": "moustache04_2",
+        "sound": "moustache"
+      },
+      {
+        "name": "jewel01",
+        "sound": "earring"
+      },
+      {
+        "name": "jewel02",
+        "sound": "earring"
+      },
+      {
+        "name": "jewel03",
+        "sound": "earring"
+      },
+      {
+        "name": "jewel04",
+        "sound": "earring"
+      },
+      {
+        "name": "hat01",
+        "sound": "hat"
+      },
+      {
+        "name": "hat02",
+        "sound": "hat"
+      },
+      {
+        "name": "hat03",
+        "sound": "hat"
+      },
+      {
+        "name": "hat04",
+        "sound": "hat"
+      },
+      {
+        "name": "mouth01",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth02",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth03",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth04",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth05",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth06",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth07",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth08",
+        "sound": "mouth"
+      },
+      {
+        "name": "mouth09",
+        "sound": "mouth"
+      },
+      {
+        "name": "ear01_1",
+        "sound": "ear"
+      },
+      {
+        "name": "ear01_2",
+        "sound": "ear"
+      },
+      {
+        "name": "ear02_1",
+        "sound": "ear"
+      },
+      {
+        "name": "ear02_2",
+        "sound": "ear"
+      },
+      {
+        "name": "ear03_1",
+        "sound": "ear"
+      },
+      {
+        "name": "ear03_2",
+        "sound": "ear"
+      },
+      {
+        "name": "ear04_1",
+        "sound": "ear"
+      },
+      {
+        "name": "ear04_2",
+        "sound": "ear"
+      },
+      {
+        "name": "eyebrow01_1",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrow01_2",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrow02_1",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrow02_2",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrow03_1",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrow03_2",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrow04_1",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eyebrow04_2",
+        "sound": "eyebrow"
+      },
+      {
+        "name": "eye01_1",
+        "sound": "eye"
+      },
+      {
+        "name": "eye01_2",
+        "sound": "eye"
+      },
+      {
+        "name": "eye02_1",
+        "sound": "eye"
+      },
+      {
+        "name": "eye02_2",
+        "sound": "eye"
+      },
+      {
+        "name": "eye03",
+        "sound": "eye"
+      },
+      {
+        "name": "eye04",
+        "sound": "eye"
+      },
+      {
+        "name": "eye05_1",
+        "sound": "eye"
+      },
+      {
+        "name": "eye05_2",
+        "sound": "eye"
+      },
+      {
+        "name": "eye06_1",
+        "sound": "eye"
+      },
+      {
+        "name": "eye06_2",
+        "sound": "eye"
+      },
+      {
+        "name": "eye07_1",
+        "sound": "eye"
+      },
+      {
+        "name": "eye07_2",
+        "sound": "eye"
+      },
+      {
+        "name": "eye08_1",
+        "sound": "eye"
+      },
+      {
+        "name": "eye08_2",
+        "sound": "eye"
+      },
+      {
+        "name": "eye09",
+        "sound": "eye"
+      },
+      {
+        "name": "eye10",
+        "sound": "eye"
+      }
+    ]
+  },
+  {
+    "name": "Robin Tux",
+    "file": "robin-tux.svg",
+    "localization": {
+      "ast": "Robin Tux",
+      "bs": "Robin Tux",
+      "ca": "Robin Tux",
+      "ca@valencia": "Robin Tux",
+      "cs": "Robin Tux",
+      "da": "Robin Tux",
+      "de": "Robin Pinguin",
+      "el": "Tux Ρομπέν",
+      "en_GB": "Robin Tux",
+      "es": "Robin Tux",
+      "et": "Robin Tux",
+      "eu": "Robin Tux",
+      "fi": "Robin Tux",
+      "fr": "Robin Tux",
+      "ga": "Robin Tux",
+      "gl": "Robin Tux",
+      "hu": "Robin Tux",
+      "it": "Robin Tux",
+      "ja": "ロビン・タックス",
+      "kk": "Робин Тукс",
+      "km": "Robin Tux",
+      "ko": "로빈 턱스",
+      "lv": "Robin Tux",
+      "mr": "रोबिन टक्स",
+      "nb": "Robin Tux",
+      "nds": "Robin Tux",
+      "nl": "Robin Tux",
+      "nn": "Robin Tux",
+      "pl": "Robin Tux",
+      "pt": "Pinguim Tux",
+      "pt_BR": "Robin Tux",
+      "ro": "Robin Tux",
+      "ru": "Робин Тукс",
+      "sk": "Robin Tux",
+      "sl": "Robin Tux",
+      "sr": "Пингвин Худ",
+      "sr@ijekavian": "Пингвин Худ",
+      "sr@ijekavianlatin": "Pingvin Hud",
+      "sr@latin": "Pingvin Hud",
+      "sv": "Robin Tux",
+      "tr": "Robin Tux",
+      "uk": "Робін Тукс",
+      "wa": "Robin Tux",
+      "x-test": "xxRobin Tuxxx",
+      "zh_CN": "企鹅罗宾",
+      "zh_TW": "Robin Tux"
+    },
+    "bgcolor": "#b3925d",
+    "items": [
+      {
+        "name": "Robin-Tux",
+        "sound": "robin-tux"
+      },
+      {
+        "name": "Frier-Tux",
+        "sound": "frier-tux"
+      },
+      {
+        "name": "Little-Tux",
+        "sound": "little-tux"
+      },
+      {
+        "name": "Maiden-Tux",
+        "sound": "maiden-tux"
+      },
+      {
+        "name": "Prince-Tux",
+        "sound": "prince-tux"
+      },
+      {
+        "name": "Sherif-Tux",
+        "sound": "sherif-tux"
+      },
+      {
+        "name": "Guard-Tux",
+        "sound": "guard-tux"
+      },
+      {
+        "name": "Kid-Tux",
+        "sound": "kid-tux"
+      },
+      {
+        "name": "Whitch-Tux",
+        "sound": "whitch-tux"
+      },
+      {
+        "name": "vase",
+        "sound": "tux-vase"
+      },
+      {
+        "name": "teacup",
+        "sound": "tux-teacup"
+      },
+      {
+        "name": "candles",
+        "sound": "tux-candles"
+      },
+      {
+        "name": "goblet",
+        "sound": "tux-goblet"
+      },
+      {
+        "name": "candles-glow",
+        "sound": "tux-candles"
+      },
+      {
+        "name": "say-love",
+        "sound": "tux-love"
+      },
+      {
+        "name": "say-idea",
+        "sound": "tux-idea"
+      },
+      {
+        "name": "say-huh",
+        "sound": "tux-huh"
+      },
+      {
+        "name": "say-what",
+        "sound": "tux-what"
+      },
+      {
+        "name": "say-wow",
+        "sound": "tux-wow"
+      },
+      {
+        "name": "say-stare",
+        "sound": "tux-stare"
+      },
+      {
+        "name": "arrows",
+        "sound": "tux-arrows"
+      },
+      {
+        "name": "bow-right",
+        "sound": "tux-bow"
+      },
+      {
+        "name": "bow-shoot-right",
+        "sound": "tux-shoot"
+      },
+      {
+        "name": "bow-shoot-left",
+        "sound": "tux-shoot"
+      },
+      {
+        "name": "arrow-left",
+        "sound": "tux-arrow"
+      },
+      {
+        "name": "say-zzz",
+        "sound": "tux-zzz"
+      },
+      {
+        "name": "white-dowe-right",
+        "sound": "tux-dowe"
+      },
+      {
+        "name": "white-dowe-fly-right",
+        "sound": "tux-fly"
+      },
+      {
+        "name": "bow-left",
+        "sound": "tux-bow"
+      },
+      {
+        "name": "bullseye",
+        "sound": "tux-bullseye"
+      },
+      {
+        "name": "arrow-right",
+        "sound": "tux-arrow"
+      },
+      {
+        "name": "wanted",
+        "sound": "tux-wanted"
+      },
+      {
+        "name": "letter-love",
+        "sound": "tux-love"
+      },
+      {
+        "name": "letter",
+        "sound": "tux-letter"
+      },
+      {
+        "name": "white-dowe-left",
+        "sound": "tux-dowe"
+      },
+      {
+        "name": "white-dowe-fly-left",
+        "sound": "tux-fly"
+      },
+      {
+        "name": "apple",
+        "sound": "tux-apple"
+      },
+      {
+        "name": "flask",
+        "sound": "tux-flask"
+      },
+      {
+        "name": "flask-poison",
+        "sound": "tux-poison"
+      },
+      {
+        "name": "say-angry",
+        "sound": "tux-angry"
+      },
+      {
+        "name": "say-laugh",
+        "sound": "tux-laugh"
+      },
+      {
+        "name": "note",
+        "sound": "tux-note"
+      },
+      {
+        "name": "notes",
+        "sound": "tux-notes"
+      },
+      {
+        "name": "fish",
+        "sound": "tux-fish"
+      },
+      {
+        "name": "plate",
+        "sound": "tux-plate"
+      },
+      {
+        "name": "guitar",
+        "sound": "tux-guitar"
+      },
+      {
+        "name": "key",
+        "sound": "tux-key"
+      },
+      {
+        "name": "say-sick",
+        "sound": "tux-sick"
+      }
+    ]
+  },
+  {
+    "name": "Robot workshop",
+    "file": "robot_workshop.svg",
+    "localization": {
+      "bs": "Robot radionica",
+      "ca": "Taller de robots",
+      "ca@valencia": "Taller de robots",
+      "da": "Robotværksted",
+      "de": "Roboterfabrik",
+      "el": "Robot workshop",
+      "en_GB": "Robot workshop",
+      "es": "Taller de robots",
+      "et": "Roboti töökoda",
+      "fi": "Robottityöpaja",
+      "fr": "Atelier de robots",
+      "ga": "Robot workshop",
+      "gl": "Fábrica de robots",
+      "hu": "Robot műhely",
+      "is": "Vélmennaverkstæði",
+      "it": "Officina dei robot",
+      "kk": "Робот шеберханасы",
+      "km": "រោង​ចក្រ​ផលិត​ម​នុស្សយន្ដ",
+      "ko": "로봇 공작실",
+      "lv": "Robotu darbnīca",
+      "mr": "रोबोट वर्कशोप",
+      "nb": "Robotverksted",
+      "nds": "Blickkeerl-Smeed",
+      "nl": "Robot workshop",
+      "pl": "Warsztat robota",
+      "pt": "Feira de robots",
+      "pt_BR": "Feira de robôs",
+      "ro": "Atelierul de roboți",
+      "ru": "Цех роботов",
+      "sk": "Fabrika na roboty",
+      "sl": "Robotska delavnica",
+      "sr": "Роботска радионица",
+      "sr@ijekavian": "Роботска радионица",
+      "sr@ijekavianlatin": "Robotska radionica",
+      "sr@latin": "Robotska radionica",
+      "sv": "Robotseminarium",
+      "tr": "Robot atölyesi",
+      "uk": "Ремонтна майстерня",
+      "x-test": "xxRobot workshopxx",
+      "zh_CN": "机器人商店",
+      "zh_TW": "機器人展"
+    },
+    "bgcolor": "#9898ab",
+    "items": [
+      {
+        "name": "eyes1",
+        "sound": "robot_workshop_eye"
+      },
+      {
+        "name": "eyes2",
+        "sound": "robot_workshop_eye"
+      },
+      {
+        "name": "bodyBlue",
+        "sound": "robot_workshop_body"
+      },
+      {
+        "name": "bodyGreen",
+        "sound": "robot_workshop_body"
+      },
+      {
+        "name": "bodyRed",
+        "sound": "robot_workshop_body"
+      },
+      {
+        "name": "armBlue1",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "armBlue2",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "armRedHoriz",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "armRedVert",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "armFlexi1",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "armFlexi2",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "armFlexi3",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "scissorArm1",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "scissorArm2",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "scissorArm3",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "scissorArm1",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "scissorArm2",
+        "sound": "robot_workshop_arm"
+      },
+      {
+        "name": "headBlue",
+        "sound": "robot_workshop_head"
+      },
+      {
+        "name": "headRed",
+        "sound": "robot_workshop_head"
+      },
+      {
+        "name": "headGreen",
+        "sound": "robot_workshop_head"
+      },
+      {
+        "name": "headDome",
+        "sound": "robot_workshop_head"
+      },
+      {
+        "name": "headEyes",
+        "sound": "robot_workshop_head"
+      },
+      {
+        "name": "wheel",
+        "sound": "robot_workshop_wheel"
+      },
+      {
+        "name": "rocket1",
+        "sound": "robot_workshop_rocket"
+      },
+      {
+        "name": "rocket2",
+        "sound": "robot_workshop_rocket"
+      },
+      {
+        "name": "base1",
+        "sound": "robot_workshop_base"
+      },
+      {
+        "name": "foot",
+        "sound": "robot_workshop_foot"
+      },
+      {
+        "name": "rodHoriz",
+        "sound": "robot_workshop_rod"
+      },
+      {
+        "name": "rodVert",
+        "sound": "robot_workshop_rod"
+      },
+      {
+        "name": "rodLeft",
+        "sound": "robot_workshop_rod"
+      },
+      {
+        "name": "rodRight",
+        "sound": "robot_workshop_rod"
+      },
+      {
+        "name": "clawBlue1",
+        "sound": "robot_workshop_claw"
+      },
+      {
+        "name": "clawBlue2",
+        "sound": "robot_workshop_claw"
+      },
+      {
+        "name": "handGreenLeft",
+        "sound": "robot_workshop_hand"
+      },
+      {
+        "name": "handGreenRight",
+        "sound": "robot_workshop_hand"
+      },
+      {
+        "name": "ballGreen",
+        "sound": "robot_workshop_ball"
+      },
+      {
+        "name": "blockGreen",
+        "sound": "robot_workshop_block"
+      },
+      {
+        "name": "blockRed",
+        "sound": "robot_workshop_block"
+      },
+      {
+        "name": "panel1",
+        "sound": "robot_workshop_panel"
+      },
+      {
+        "name": "antLeft",
+        "sound": "robot_workshop_antenna"
+      },
+      {
+        "name": "antRight",
+        "sound": "robot_workshop_antenna"
+      }
+    ]
+  },
+  {
+    "name": "Train Valley",
+    "file": "train_valley.svg",
+    "localization": {
+      "ast": "Valle del tren",
+      "bs": "Dolina vozova",
+      "ca": "Vall dels trens",
+      "ca@valencia": "Vall dels trens",
+      "cs": "Údolí s vláčkem",
+      "da": "Jernbanedalen",
+      "de": "Tal mit Zügen",
+      "el": "Η κοιλάδα του τρένου",
+      "en_GB": "Train Valley",
+      "eo": "Trajna valeto",
+      "es": "Valle del tren",
+      "et": "Train Valley",
+      "eu": "Trenaren bailara",
+      "fa": "دره قطار",
+      "fi": "Junalaakso",
+      "fr": "Train Valley",
+      "ga": "Train Valley",
+      "gl": "O val do tren",
+      "hne": "ट्रेन वेली",
+      "hu": "Vonatos",
+      "it": "Valle dei treni",
+      "ja": "列車の通る谷",
+      "kk": "Поезд алапы",
+      "km": "ជ្រលង​រថភ្លើង",
+      "ko": "기차 계곡",
+      "lv": "Vilcienu ieleja",
+      "mr": "ट्रेन व्हेली",
+      "nb": "Togdalen",
+      "nds": "Töögdaal",
+      "nl": "Treinlandschap",
+      "nn": "Togdalen",
+      "pl": "Dolina kolei",
+      "pt": "Vale do Comboio",
+      "pt_BR": "Vale dos Trens",
+      "ro": "Valea trenurilor",
+      "ru": "Тренировочная долина",
+      "sk": "Údolie s vláčikom",
+      "sl": "Dolina vlakov",
+      "sr": "Долина возова",
+      "sr@ijekavian": "Долина возова",
+      "sr@ijekavianlatin": "Dolina vozova",
+      "sr@latin": "Dolina vozova",
+      "sv": "Tågdalen",
+      "te": "ట్రెన్ లొయ",
+      "tr": "Train Vadisi",
+      "uk": "Долина поїздів",
+      "wa": "Vå do trin",
+      "x-test": "xxTrain Valleyxx",
+      "zh_CN": "车行溪谷",
+      "zh_TW": "Train Valley"
+    },
+    "bgcolor": "#a4c0e4",
+    "items": [
+      {
+        "name": "accident_car",
+        "sound": "tv_accident"
+      },
+      {
+        "name": "barrier1",
+        "sound": "tv_barrier"
+      },
+      {
+        "name": "barrier2",
+        "sound": "tv_barrier"
+      },
+      {
+        "name": "barrier3",
+        "sound": "tv_barrier"
+      },
+      {
+        "name": "barrier4",
+        "sound": "tv_barrier"
+      },
+      {
+        "name": "bicycle",
+        "sound": "tv_bicycle"
+      },
+      {
+        "name": "breakdown_lorry",
+        "sound": "tv_breakdown_lorry"
+      },
+      {
+        "name": "car1",
+        "sound": "tv_car"
+      },
+      {
+        "name": "car2",
+        "sound": "tv_car"
+      },
+      {
+        "name": "car3",
+        "sound": "tv_car"
+      },
+      {
+        "name": "car4",
+        "sound": "tv_car"
+      },
+      {
+        "name": "caravan1",
+        "sound": "tv_caravan"
+      },
+      {
+        "name": "caravan2",
+        "sound": "tv_caravan"
+      },
+      {
+        "name": "caravan3",
+        "sound": "tv_caravan"
+      },
+      {
+        "name": "cycle1",
+        "sound": "tv_cyclist"
+      },
+      {
+        "name": "cycle2",
+        "sound": "tv_cyclist"
+      },
+      {
+        "name": "cycle3",
+        "sound": "tv_cyclist"
+      },
+      {
+        "name": "cycle4",
+        "sound": "tv_cyclist"
+      },
+      {
+        "name": "elephant1",
+        "sound": "tv_elephant"
+      },
+      {
+        "name": "elephant2",
+        "sound": "tv_elephant"
+      },
+      {
+        "name": "elephant3",
+        "sound": "tv_elephant"
+      },
+      {
+        "name": "excavator1",
+        "sound": "tv_excavator"
+      },
+      {
+        "name": "excavator2",
+        "sound": "tv_excavator"
+      },
+      {
+        "name": "fence1",
+        "sound": "tv_fence"
+      },
+      {
+        "name": "fence2",
+        "sound": "tv_fence"
+      },
+      {
+        "name": "fire_engine1",
+        "sound": "tv_fireengine"
+      },
+      {
+        "name": "fire_engine2",
+        "sound": "tv_fireengine"
+      },
+      {
+        "name": "fireman1",
+        "sound": "tv_fireman"
+      },
+      {
+        "name": "fireman2",
+        "sound": "tv_fireman"
+      },
+      {
+        "name": "fire",
+        "sound": "tv_fire"
+      },
+      {
+        "name": "fisherman",
+        "sound": "tv_fisherman"
+      },
+      {
+        "name": "football",
+        "sound": "tv_ball"
+      },
+      {
+        "name": "giraffe1",
+        "sound": "tv_giraffe"
+      },
+      {
+        "name": "giraffe2",
+        "sound": "tv_giraffe"
+      },
+      {
+        "name": "giraffe3",
+        "sound": "tv_giraffe"
+      },
+      {
+        "name": "guitarist",
+        "sound": "tv_guitarist"
+      },
+      {
+        "name": "guitar",
+        "sound": "tv_guitar"
+      },
+      {
+        "name": "house1",
+        "sound": "tv_house"
+      },
+      {
+        "name": "house",
+        "sound": "tv_house"
+      },
+      {
+        "name": "ladder",
+        "sound": "tv_ladder"
+      },
+      {
+        "name": "lion1",
+        "sound": "tv_lion"
+      },
+      {
+        "name": "lion2",
+        "sound": "tv_lion"
+      },
+      {
+        "name": "lion3",
+        "sound": "tv_lion"
+      },
+      {
+        "name": "lorry1",
+        "sound": "tv_lorry"
+      },
+      {
+        "name": "lorry2",
+        "sound": "tv_lorry"
+      },
+      {
+        "name": "lorry_tractor1",
+        "sound": "tv_lorry_tractor"
+      },
+      {
+        "name": "lorry_tractor2",
+        "sound": "tv_lorry_tractor"
+      },
+      {
+        "name": "man1",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man2",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man3",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man4",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man5",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man6",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man7",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man8",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man9",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man10",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man11",
+        "sound": "tv_man"
+      },
+      {
+        "name": "man12",
+        "sound": "tv_man"
+      },
+      {
+        "name": "mechanic",
+        "sound": "tv_mechanic"
+      },
+      {
+        "name": "monkey1",
+        "sound": "tv_monkey"
+      },
+      {
+        "name": "monkey2",
+        "sound": "tv_monkey"
+      },
+      {
+        "name": "path1",
+        "sound": "tv_path"
+      },
+      {
+        "name": "path2",
+        "sound": "tv_path"
+      },
+      {
+        "name": "red_train",
+        "sound": "tv_train"
+      },
+      {
+        "name": "rock",
+        "sound": "tv_rock"
+      },
+      {
+        "name": "rugby_ball",
+        "sound": "tv_ball"
+      },
+      {
+        "name": "school",
+        "sound": "tv_school"
+      },
+      {
+        "name": "shop",
+        "sound": "tv_shop"
+      },
+      {
+        "name": "smoke",
+        "sound": "tv_smoke"
+      },
+      {
+        "name": "steam_train",
+        "sound": "tv_train"
+      },
+      {
+        "name": "tipper1",
+        "sound": "tv_tipper"
+      },
+      {
+        "name": "tipper2",
+        "sound": "tv_tipper"
+      },
+      {
+        "name": "trailer",
+        "sound": "tv_trailer"
+      },
+      {
+        "name": "tree1",
+        "sound": "tv_tree"
+      },
+      {
+        "name": "tree2",
+        "sound": "tv_tree"
+      },
+      {
+        "name": "tunnel",
+        "sound": "tv_tunnel"
+      },
+      {
+        "name": "volleyball",
+        "sound": "tv_ball"
+      },
+      {
+        "name": "volley_net",
+        "sound": "tv_volley_net"
+      },
+      {
+        "name": "wagon",
+        "sound": "tv_wagon"
+      },
+      {
+        "name": "woman1",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman2",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman3",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman4",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman5",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman6",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman7",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman8",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman9",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman10",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman11",
+        "sound": "tv_woman"
+      },
+      {
+        "name": "woman12",
+        "sound": "tv_woman"
+      }
+    ]
+  }
+]
