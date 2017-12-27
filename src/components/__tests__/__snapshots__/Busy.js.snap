@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Busy render 1`] = `null`;
+
+exports[`Busy render active 1`] = `
+<div
+  className="busy"
+>
+  <div
+    className="alert alert-success"
+  >
+    Loading ...
+  </div>
+  <div
+    className="overlap"
+  />
+</div>
+`;

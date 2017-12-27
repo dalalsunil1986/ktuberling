@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarButton onClick default 1`] = `
+<li
+  className=""
+>
+  <a
+    onClick={[Function]}
+    role="button"
+  >
+    text
+  </a>
+</li>
+`;
+
+exports[`NavbarButton render 1`] = `
+<li
+  className=""
+>
+  <a
+    onClick={[Function]}
+    role="button"
+  >
+    text
+  </a>
+</li>
+`;
+
+exports[`NavbarButton render disabled 1`] = `
+<li
+  className="disabled"
+>
+  <a
+    onClick={[Function]}
+    role="button"
+  >
+    disabled
+  </a>
+</li>
+`;
