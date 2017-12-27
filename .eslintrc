@@ -1,6 +1,18 @@
 {
-  "extends": "airbnb-base",
-  "rules": {},
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb-base",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "yoda": ["error", "always"],
+    "no-plusplus": 0,
+    "no-underscore-dangle": 0,
+    "react/display-name": 0
+  },
   "env": {
     "jasmine": true
   },
