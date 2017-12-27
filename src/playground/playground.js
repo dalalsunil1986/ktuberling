@@ -49,7 +49,9 @@ module.exports = L.Map.extend({
     }).once('load', function load(evt) {
       this.fitBounds(this._playground.getBounds(), { animate: false });
       this._initItems();
-      clbck.call(context, evt);
+      if (clbck) {
+        clbck.call(context, evt);
+      }
     }, this).addTo(this);
   },
 
@@ -70,7 +72,7 @@ module.exports = L.Map.extend({
 
       if (node) {
         node.parentNode.removeChild(node);
-        msg('add playgroundItem for node ', node);
+        // msg('add playgroundItem for node ', node);
       } else {
         msg('No node for', item.name);
       }
