@@ -11,7 +11,8 @@
     "yoda": ["error", "always"],
     "no-plusplus": 0,
     "no-underscore-dangle": 0,
-    "react/display-name": 0
+    "react/display-name": 0,
+    "function-paren-newline": 0
   },
   "env": {
     "jasmine": true

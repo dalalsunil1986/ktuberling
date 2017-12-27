@@ -4,9 +4,9 @@ import { error } from 'extra-log';
 
 import './app.less';
 
-import Brand from './components/brand';
-import Busy from './components/busy';
-import NavbarButton from './components/navbarButton';
+import Brand from './components/Brand';
+import Busy from './components/Busy';
+import NavbarButton from './components/NavbarButton';
 import Playground from './components/Playground';
 
 
