@@ -7,7 +7,7 @@ import './app.less';
 import Brand from './components/brand';
 import Busy from './components/busy';
 import NavbarButton from './components/navbarButton';
-import Playground from './playground/playground';
+import Playground from './components/Playground';
 
 
 export default class App extends React.Component {
@@ -24,15 +24,7 @@ export default class App extends React.Component {
 
 
   componentDidMount() {
-    this._playground = new Playground(this._playgroundRef);
     this._loadPlaygrounds();
-  }
-
-
-  componentDidUpdate = (prevProps, prevState) => {
-    if (prevState.activePlayground !== this.state.activePlayground) {
-      this._setPlayground();
-    }
   }
 
 
@@ -48,21 +40,12 @@ export default class App extends React.Component {
         error('Error loading playgrounds');
       } else {
         this.setState({
+          loading: false,
           playgrounds: JSON.parse(data),
           activePlayground: 0,
         });
       }
     });
-  }
-
-
-  _setPlayground = () => {
-    const playground = this.state.playgrounds[this.state.activePlayground];
-
-    this.setState({ loading: true });
-    this._playground.setPlayground(playground, () => {
-      this.setState({ loading: false });
-    }, this);
   }
 
 
@@ -84,11 +67,6 @@ export default class App extends React.Component {
         <a href="#">{playground.name}</a>
       </li>
     ), this);
-  }
-
-
-  _setRef = (ref) => {
-    this._playgroundRef = ref;
   }
 
 
@@ -129,7 +107,7 @@ export default class App extends React.Component {
           </div>
         </nav>
         <div className="container">
-          <div ref={this._setRef} className="playground" />
+          <Playground ground={state.playgrounds[state.activePlayground]} />
           <Busy active={state.loading} />
         </div>
       </div>

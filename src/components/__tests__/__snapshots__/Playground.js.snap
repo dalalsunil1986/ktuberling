@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Playground render 1`] = `
+<div
+  className="playground"
+/>
+`;
+
+exports[`Playground render 2`] = `
+Array [
+  Array [
+    null,
+  ],
+]
+`;
+
+exports[`Playground render 3`] = `
+Array [
+  Array [
+    Object {
+      "bgcolor": "bgcolor",
+      "file": "ground.svg",
+      "items": Array [
+        Object {
+          "name": "item 1",
+          "scale": "8",
+          "sound": "item1",
+        },
+      ],
+      "localization": Object {
+        "bs": "bs",
+        "ca": "bs",
+      },
+      "name": "ground",
+    },
+  ],
+]
+`;
+
+exports[`Playground render 4`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`Playground render empty 1`] = `
+<div
+  className="playground"
+/>
+`;
+
+exports[`Playground render empty 2`] = `
+Array [
+  Array [
+    null,
+  ],
+]
+`;
+
+exports[`Playground render empty 3`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`Playground update playground 1`] = `
+Array [
+  Array [
+    null,
+  ],
+]
+`;
+
+exports[`Playground update playground 2`] = `
+Array [
+  Array [
+    Object {
+      "bgcolor": "bgcolor",
+      "file": "ground.svg",
+      "items": Array [
+        Object {
+          "name": "item 1",
+          "scale": "8",
+          "sound": "item1",
+        },
+      ],
+      "localization": Object {
+        "bs": "bs",
+        "ca": "bs",
+      },
+      "name": "groundBefore",
+    },
+  ],
+]
+`;
+
+exports[`Playground update playground: update playground tree 1`] = `
+<div
+  className="playground"
+/>
+`;
+
+exports[`Playground update playground: update playground tree 2`] = `
+<div
+  className="playground"
+/>
+`;
