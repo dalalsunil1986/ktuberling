@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Init items: no node msg 1`] = `
+Array [
+  Array [
+    "No node for node [itemWithoutNode]",
+  ],
+]
+`;
+
+exports[`App Init items: removeChild 1`] = `
+Array [
+  Array [
+    Object {
+      "parentNode": Object {
+        "removeChild": [MockFunction] {
+          "calls": [Circular],
+        },
+      },
+    },
+  ],
+]
+`;
+
+exports[`App init 1`] = `
+Object {
+  "_initItems": [Function],
+  "_items": Array [],
+  "_playground": null,
+  "_playgroundData": null,
+  "_unsetPlayground": [Function],
+  "doubleClickZoom": Object {
+    "disable": [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+    },
+  },
+  "fitBounds": [MockFunction],
+  "initialize": [Function],
+  "options": Object {
+    "center": Array [
+      0,
+      0,
+    ],
+    "crs": undefined,
+    "editable": true,
+    "maxZoom": 4,
+    "minZoom": 0,
+    "scaleItem": 1.2,
+    "zoom": 1,
+  },
+  "removeLayer": [MockFunction],
+  "setPlayground": [Function],
+}
+`;
+
+exports[`App init with options 1`] = `
+Object {
+  "_initItems": [Function],
+  "_items": Array [],
+  "_playground": null,
+  "_playgroundData": null,
+  "_unsetPlayground": [Function],
+  "doubleClickZoom": Object {
+    "disable": [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+    },
+  },
+  "fitBounds": [MockFunction],
+  "initialize": [Function],
+  "options": Object {
+    "center": Array [
+      0,
+      0,
+    ],
+    "crs": undefined,
+    "editable": true,
+    "maxZoom": 4,
+    "minZoom": 0,
+    "scaleItem": 1.2,
+    "zoom": 1,
+  },
+  "removeLayer": [MockFunction],
+  "setPlayground": [Function],
+}
+`;
+
+exports[`App set playground handles schematic load: load callback 1`] = `
+Array [
+  Array [
+    "rxr",
+    "svg",
+  ],
+]
+`;
+
+exports[`App set playground handles schematic load: xhr 1`] = `
+Array [
+  Array [
+    Object {
+      "headers": Object {
+        "Content-Type": "image/svg+xml",
+      },
+      "uri": "url",
+    },
+    [Function],
+  ],
+]
+`;
+
+exports[`App set playground with callback: Schematic call 1`] = `
+Array [
+  Array [
+    "./assets/data/svg/file",
+    Object {
+      "load": [Function],
+      "usePathContainer": true,
+      "useRaster": false,
+      "weight": 0.25,
+    },
+  ],
+]
+`;
+
+exports[`App set playground with callback: callback 1`] = `
+Array [
+  Array [
+    "context",
+    "load:evt",
+  ],
+]
+`;
+
+exports[`App set playground: Schematic call 1`] = `
+Array [
+  Array [
+    "./assets/data/svg/file",
+    Object {
+      "load": [Function],
+      "usePathContainer": true,
+      "useRaster": false,
+      "weight": 0.25,
+    },
+  ],
+]
+`;
+
+exports[`App set playground: Schematic.once call 1`] = `
+Array [
+  Array [
+    "load",
+    [Function],
+    Object {
+      "_initItems": [Function],
+      "_items": Array [],
+      "_playground": [MockFunction] {
+        "calls": Array [
+          Array [
+            "./assets/data/svg/file",
+            Object {
+              "load": [Function],
+              "usePathContainer": true,
+              "useRaster": false,
+              "weight": 0.25,
+            },
+          ],
+        ],
+      },
+      "_playgroundData": Object {
+        "file": "file",
+        "items": Array [],
+      },
+      "_unsetPlayground": [Function],
+      "doubleClickZoom": Object {
+        "disable": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+        },
+      },
+      "fitBounds": [MockFunction],
+      "initialize": [Function],
+      "options": Object {
+        "center": Array [
+          0,
+          0,
+        ],
+        "crs": undefined,
+        "editable": true,
+        "maxZoom": 4,
+        "minZoom": 0,
+        "scaleItem": 1.2,
+        "zoom": 1,
+      },
+      "removeLayer": [MockFunction],
+      "setPlayground": [Function],
+    },
+  ],
+]
+`;
