@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App init 1`] = `
+exports[`Index init 1`] = `
 Array [
   Array [
     <App />,

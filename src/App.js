@@ -63,7 +63,7 @@ export default class App extends React.Component {
 
   _playgrounds() {
     return this.state.playgrounds.map((playground, ind) => (
-      <li key={ind} onClick={this._onPlaygroundItem.bind(this, playground, ind)}>
+      <li id={`item_${ind}`} key={ind} onClick={this._onPlaygroundItem.bind(this, playground, ind)}>
         <a href="#">{playground.name}</a>
       </li>
     ), this);
@@ -87,7 +87,7 @@ export default class App extends React.Component {
                 <NavbarButton disabled text="Print" />
                 <NavbarButton disabled text="Undo" />
                 <NavbarButton disabled text="Redo" />
-                <li className={playgroundsClass} onClick={this._onPlayground}>
+                <li id="playgroundsSelector" className={playgroundsClass} onClick={this._onPlayground}>
                   <a
                     href="#"
                     className="dropdown-toggle"

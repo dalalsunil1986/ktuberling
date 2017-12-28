@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import App from './app';
+import App from './App';
 
 const container = document.createElement('div');
 container.id = 'app';
