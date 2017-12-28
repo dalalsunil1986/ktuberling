@@ -1,0 +1,518 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App handle on playground item click and change playground 1`] = `
+Array [
+  Array [
+    Object {
+      "headers": Object {
+        "Content-Type": "application/json",
+      },
+      "uri": "assets/data/playgrounds.json",
+    },
+    [Function],
+  ],
+]
+`;
+
+exports[`App handle on playground item click and change playground: tree 1`] = `
+<div
+  className="app"
+>
+  <nav
+    className="navbar navbar-default"
+  >
+    <div
+      className="container-fluid"
+    >
+      <Brand />
+      <div
+        className="collapse navbar-collapse"
+      >
+        <ul
+          className="nav navbar-nav"
+        >
+          <NavbarButton
+            disabled={true}
+            text="New"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Save"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Print"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Undo"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Redo"
+          />
+          <li
+            className="dropdown open"
+            id="playgroundsSelector"
+            onClick={[Function]}
+          >
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              className="dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+            >
+              Playground 
+              <span
+                className="caret"
+              />
+            </a>
+            <ul
+              className="dropdown-menu"
+            >
+              <li
+                id="item_0"
+                onClick={[Function]}
+              >
+                <a
+                  href="#"
+                >
+                  playground0
+                </a>
+              </li>
+              <li
+                id="item_1"
+                onClick={[Function]}
+              >
+                <a
+                  href="#"
+                >
+                  playground1
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    <Playground
+      ground={
+        Object {
+          "file": "file1.file",
+          "items": Array [],
+          "name": "playground1",
+        }
+      }
+    />
+    <Busy
+      active={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`App loads play grounds and handles error 1`] = `
+Array [
+  Array [
+    Object {
+      "headers": Object {
+        "Content-Type": "application/json",
+      },
+      "uri": "assets/data/playgrounds.json",
+    },
+    [Function],
+  ],
+]
+`;
+
+exports[`App loads play grounds and handles error 2`] = `
+<div
+  className="app"
+>
+  <nav
+    className="navbar navbar-default"
+  >
+    <div
+      className="container-fluid"
+    >
+      <Brand />
+      <div
+        className="collapse navbar-collapse"
+      >
+        <ul
+          className="nav navbar-nav"
+        >
+          <NavbarButton
+            disabled={true}
+            text="New"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Save"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Print"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Undo"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Redo"
+          />
+          <li
+            className="dropdown"
+            id="playgroundsSelector"
+            onClick={[Function]}
+          >
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              className="dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+            >
+              Playground 
+              <span
+                className="caret"
+              />
+            </a>
+            <ul
+              className="dropdown-menu"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    <Playground
+      ground={undefined}
+    />
+    <Busy
+      active={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`App loads play grounds and set first 1`] = `
+Array [
+  Array [
+    Object {
+      "headers": Object {
+        "Content-Type": "application/json",
+      },
+      "uri": "assets/data/playgrounds.json",
+    },
+    [Function],
+  ],
+]
+`;
+
+exports[`App loads play grounds and set first 2`] = `
+<div
+  className="app"
+>
+  <nav
+    className="navbar navbar-default"
+  >
+    <div
+      className="container-fluid"
+    >
+      <Brand />
+      <div
+        className="collapse navbar-collapse"
+      >
+        <ul
+          className="nav navbar-nav"
+        >
+          <NavbarButton
+            disabled={true}
+            text="New"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Save"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Print"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Undo"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Redo"
+          />
+          <li
+            className="dropdown"
+            id="playgroundsSelector"
+            onClick={[Function]}
+          >
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              className="dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+            >
+              Playground 
+              <span
+                className="caret"
+              />
+            </a>
+            <ul
+              className="dropdown-menu"
+            >
+              <li
+                id="item_0"
+                onClick={[Function]}
+              >
+                <a
+                  href="#"
+                >
+                  playground0
+                </a>
+              </li>
+              <li
+                id="item_1"
+                onClick={[Function]}
+              >
+                <a
+                  href="#"
+                >
+                  playground1
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    <Playground
+      ground={
+        Object {
+          "file": "file0.file",
+          "items": Array [],
+          "name": "playground0",
+        }
+      }
+    />
+    <Busy
+      active={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`App renders 1`] = `
+<div
+  className="app"
+>
+  <nav
+    className="navbar navbar-default"
+  >
+    <div
+      className="container-fluid"
+    >
+      <Brand />
+      <div
+        className="collapse navbar-collapse"
+      >
+        <ul
+          className="nav navbar-nav"
+        >
+          <NavbarButton
+            disabled={true}
+            text="New"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Save"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Print"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Undo"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Redo"
+          />
+          <li
+            className="dropdown"
+            id="playgroundsSelector"
+            onClick={[Function]}
+          >
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              className="dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+            >
+              Playground 
+              <span
+                className="caret"
+              />
+            </a>
+            <ul
+              className="dropdown-menu"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    <Playground
+      ground={undefined}
+    />
+    <Busy
+      active={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`App show playgrounds selection 1`] = `
+Array [
+  Array [
+    Object {
+      "headers": Object {
+        "Content-Type": "application/json",
+      },
+      "uri": "assets/data/playgrounds.json",
+    },
+    [Function],
+  ],
+]
+`;
+
+exports[`App show playgrounds selection 2`] = `
+<div
+  className="app"
+>
+  <nav
+    className="navbar navbar-default"
+  >
+    <div
+      className="container-fluid"
+    >
+      <Brand />
+      <div
+        className="collapse navbar-collapse"
+      >
+        <ul
+          className="nav navbar-nav"
+        >
+          <NavbarButton
+            disabled={true}
+            text="New"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Save"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Print"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Undo"
+          />
+          <NavbarButton
+            disabled={true}
+            text="Redo"
+          />
+          <li
+            className="dropdown open"
+            id="playgroundsSelector"
+            onClick={[Function]}
+          >
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              className="dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+            >
+              Playground 
+              <span
+                className="caret"
+              />
+            </a>
+            <ul
+              className="dropdown-menu"
+            >
+              <li
+                id="item_0"
+                onClick={[Function]}
+              >
+                <a
+                  href="#"
+                >
+                  playground0
+                </a>
+              </li>
+              <li
+                id="item_1"
+                onClick={[Function]}
+              >
+                <a
+                  href="#"
+                >
+                  playground1
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    <Playground
+      ground={
+        Object {
+          "file": "file0.file",
+          "items": Array [],
+          "name": "playground0",
+        }
+      }
+    />
+    <Busy
+      active={false}
+    />
+  </div>
+</div>
+`;
