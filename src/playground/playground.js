@@ -46,13 +46,16 @@ module.exports = L.Map.extend({
           callback(err, svg);
         });
       },
-    }).once('load', function load(evt) {
-      this.fitBounds(this._playground.getBounds(), { animate: false });
-      this._initItems();
-      if (clbck) {
-        clbck.call(context, evt);
-      }
-    }, this).addTo(this);
+    })
+      .once('load', (evt) => {
+        const bounds = this._playground.getBounds();
+        this.fitBounds(bounds, { animate: false });
+        this._initItems();
+        if (clbck) {
+          clbck.call(context, evt);
+        }
+      }, this)
+      .addTo(this);
   },
 
 
@@ -66,7 +69,6 @@ module.exports = L.Map.extend({
 
   _initItems() {
     const container = this._playground._renderer._container;
-
     this._playgroundData.items.forEach((item) => {
       const node = container.getElementById(item.name);
 
@@ -74,27 +76,9 @@ module.exports = L.Map.extend({
         node.parentNode.removeChild(node);
         // msg('add playgroundItem for node ', node);
       } else {
-        msg('No node for', item.name);
+        msg(`No node for node [${item.name}]`);
       }
     });
-  },
-
-
-  _getPlaygroundItem(evt) {
-    const container = evt.target._container;
-    let node = evt.originalEvent.target;
-    let item = null;
-
-    while (node !== container && null !== node) {
-      if (node.classList.contains('clickable')) {
-        item = node;
-        break;
-      } else {
-        node = node.parentNode;
-      }
-    }
-
-    return item;
   },
 
 });
