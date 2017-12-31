@@ -1,5 +1,92 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`App Init items and remove old: addLayer 1`] = `
+Array [
+  Array [
+    Object {
+      "remove": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      },
+    },
+  ],
+  Array [
+    Object {
+      "remove": [MockFunction],
+    },
+  ],
+]
+`;
+
+exports[`App Init items and remove old: no node msg 1`] = `
+Array [
+  Array [
+    "No node for node [itemWithoutNode]",
+  ],
+]
+`;
+
+exports[`App Init items and remove old: playground.removeLayer 1`] = `
+Array [
+  Array [
+    Object {
+      "remove": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      },
+    },
+  ],
+  Array [
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "./assets/data/svg/fileNext",
+          Object {
+            "load": [Function],
+            "usePathContainer": true,
+            "useRaster": false,
+            "weight": 0.25,
+          },
+        ],
+        Array [
+          "./assets/data/svg/anotherFile",
+          Object {
+            "load": [Function],
+            "usePathContainer": true,
+            "useRaster": false,
+            "weight": 0.25,
+          },
+        ],
+      ],
+    },
+  ],
+]
+`;
+
+exports[`App Init items and remove old: removeChild 1`] = `
+Array [
+  Array [
+    Object {
+      "parentNode": Object {
+        "removeChild": [MockFunction] {
+          "calls": [Circular],
+        },
+      },
+    },
+  ],
+]
+`;
+
+exports[`App Init items: addLayer 1`] = `
+Array [
+  Array [
+    mockConstructor {},
+  ],
+]
+`;
+
 exports[`App Init items: no node msg 1`] = `
 Array [
   Array [
@@ -26,9 +113,11 @@ exports[`App init 1`] = `
 Object {
   "_initItems": [Function],
   "_items": Array [],
-  "_playground": null,
-  "_playgroundData": null,
+  "_playgroundData": undefined,
+  "_playgroundSchematic": undefined,
+  "_removeItems": [Function],
   "_unsetPlayground": [Function],
+  "addLayer": [MockFunction],
   "doubleClickZoom": Object {
     "disable": [MockFunction] {
       "calls": Array [
@@ -59,9 +148,11 @@ exports[`App init with options 1`] = `
 Object {
   "_initItems": [Function],
   "_items": Array [],
-  "_playground": null,
-  "_playgroundData": null,
+  "_playgroundData": undefined,
+  "_playgroundSchematic": undefined,
+  "_removeItems": [Function],
   "_unsetPlayground": [Function],
+  "addLayer": [MockFunction],
   "doubleClickZoom": Object {
     "disable": [MockFunction] {
       "calls": Array [
@@ -157,7 +248,11 @@ Array [
     Object {
       "_initItems": [Function],
       "_items": Array [],
-      "_playground": [MockFunction] {
+      "_playgroundData": Object {
+        "file": "file",
+        "items": Array [],
+      },
+      "_playgroundSchematic": [MockFunction] {
         "calls": Array [
           Array [
             "./assets/data/svg/file",
@@ -170,11 +265,9 @@ Array [
           ],
         ],
       },
-      "_playgroundData": Object {
-        "file": "file",
-        "items": Array [],
-      },
+      "_removeItems": [Function],
       "_unsetPlayground": [Function],
+      "addLayer": [MockFunction],
       "doubleClickZoom": Object {
         "disable": [MockFunction] {
           "calls": Array [

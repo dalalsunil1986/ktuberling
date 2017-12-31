@@ -4,6 +4,8 @@ import Schematic from 'leaflet-schematic';
 import xhr from 'xhr';
 import { msg } from 'extra-log';
 
+import PlaygroundItem from './layers/playgroundItem';
+
 
 module.exports = L.Map.extend({
 
@@ -20,8 +22,8 @@ module.exports = L.Map.extend({
 
   initialize(container, options = {}) {
     this._items = [];
-    this._playground = null;
-    this._playgroundData = null;
+    this._playgroundSchematic = undefined;
+    this._playgroundData = undefined;
 
     L.Map.prototype.initialize.call(this, container, options);
     this.doubleClickZoom.disable();
@@ -34,7 +36,7 @@ module.exports = L.Map.extend({
     this._unsetPlayground();
     this._playgroundData = playgroundData;
 
-    this._playground = new Schematic(file, {
+    this._playgroundSchematic = new Schematic(file, {
       usePathContainer: true,
       weight: 0.25,
       useRaster: false,
@@ -48,7 +50,7 @@ module.exports = L.Map.extend({
       },
     })
       .once('load', (evt) => {
-        const bounds = this._playground.getBounds();
+        const bounds = this._playgroundSchematic.getBounds();
         this.fitBounds(bounds, { animate: false });
         this._initItems();
         if (clbck) {
@@ -60,21 +62,33 @@ module.exports = L.Map.extend({
 
 
   _unsetPlayground() {
-    if (this._playground) {
-      this.removeLayer(this._playground);
-      this._playground = null;
+    this._removeItems();
+    if (this._playgroundSchematic) {
+      this.removeLayer(this._playgroundSchematic);
+      this._playgroundSchematic = undefined;
     }
   },
 
 
+  _removeItems() {
+    this._items.forEach((item) => {
+      this.removeLayer(item);
+      item.remove();
+    });
+    this._items = [];
+  },
+
+
   _initItems() {
-    const container = this._playground._renderer._container;
+    const container = this._playgroundSchematic._renderer._container;
     this._playgroundData.items.forEach((item) => {
       const node = container.getElementById(item.name);
 
       if (node) {
         node.parentNode.removeChild(node);
-        // msg('add playgroundItem for node ', node);
+        const playgroundItem = new PlaygroundItem(node);
+        this._items.push(playgroundItem);
+        this.addLayer(playgroundItem);
       } else {
         msg(`No node for node [${item.name}]`);
       }
