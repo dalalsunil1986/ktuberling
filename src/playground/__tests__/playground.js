@@ -4,20 +4,22 @@ import xhr from 'xhr';
 import { msg } from 'extra-log';
 
 import PlaygroundJs from '../playground';
+import PlaygroundItem from '../layers/playgroundItem';
 
 jest.mock('extra-log', () => ({ msg: jest.fn() }));
 jest.mock('xhr', () => jest.fn());
 jest.mock('leaflet', () => ({
   Map: {
-    extend: jest.fn(obj => () => {
+    extend: jest.fn(obj => (...args) => {
       const extendedObj = {
-        fitBounds: jest.fn(),
+        addLayer: jest.fn(),
         doubleClickZoom: { disable: jest.fn() },
+        fitBounds: jest.fn(),
         removeLayer: jest.fn(),
         ...obj,
       };
 
-      extendedObj.initialize();
+      extendedObj.initialize(...args);
       return extendedObj;
     }),
     prototype: { initialize: { call: jest.fn() } },
@@ -27,10 +29,19 @@ jest.mock('leaflet', () => ({
 }));
 jest.mock('leaflet-schematic', () => jest.fn());
 
+jest.mock('../layers/playgroundItem', () => jest.fn());
+
 describe('App', () => {
   const playgroundData = {
     file: 'file',
     items: [],
+  };
+  const playgroundDataWithItems = {
+    file: 'fileNext',
+    items: [
+      { name: 'itemWithNode' },
+      { name: 'itemWithoutNode' },
+    ],
   };
 
 
@@ -144,13 +155,6 @@ describe('App', () => {
 
 
   it('Init items', () => {
-    const playgroundDataWithItems = {
-      file: 'fileNext',
-      items: [
-        { name: 'itemWithNode' },
-        { name: 'itemWithoutNode' },
-      ],
-    };
     const ref = document.createElement('div');
     const playground = new PlaygroundJs(ref);
     const node = {
@@ -172,5 +176,57 @@ describe('App', () => {
       .toMatchSnapshot('removeChild');
     expect(msg).toHaveBeenCalledTimes(1);
     expect(msg.mock.calls).toMatchSnapshot('no node msg');
+
+    expect(playground.addLayer).toHaveBeenCalledTimes(1);
+    expect(playground.addLayer.mock.calls).toMatchSnapshot('addLayer');
+  });
+
+
+  it('Init items and remove old', () => {
+    const anotherPlaygroundDataWithItems = {
+      file: 'anotherFile',
+      items: [
+        { name: 'anotherItemWithNode' },
+        { name: 'anotherItemWithoutNode' },
+      ],
+    };
+    const ref = document.createElement('div');
+    const playground = new PlaygroundJs(ref);
+    const node = {
+      parentNode: {
+        removeChild: jest.fn(),
+      },
+    };
+    Schematic._renderer = {
+      _container: {
+        getElementById: name => (
+          'itemWithNode' === name || 'anotherItemWithNode' === name ?
+            node : undefined),
+      },
+    };
+    PlaygroundItem.mockImplementation(() => ({
+      remove: jest.fn(),
+    }));
+
+    playground.setPlayground(playgroundDataWithItems);
+    Schematic.once.mock.calls[0][1]('load:evt');
+
+    expect(node.parentNode.removeChild).toHaveBeenCalledTimes(1);
+    expect(node.parentNode.removeChild.mock.calls)
+      .toMatchSnapshot('removeChild');
+    expect(msg).toHaveBeenCalledTimes(1);
+    expect(msg.mock.calls).toMatchSnapshot('no node msg');
+
+    expect(playground.addLayer).toHaveBeenCalledTimes(1);
+
+    playground.setPlayground(anotherPlaygroundDataWithItems);
+    Schematic.once.mock.calls[0][1]('load:evt');
+
+    expect(playground.removeLayer).toHaveBeenCalledTimes(2);
+    expect(playground.removeLayer.mock.calls)
+      .toMatchSnapshot('playground.removeLayer');
+
+    expect(playground.addLayer).toHaveBeenCalledTimes(2);
+    expect(playground.addLayer.mock.calls).toMatchSnapshot('addLayer');
   });
 });
