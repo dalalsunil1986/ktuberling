@@ -21,12 +21,12 @@ module.exports = L.Polygon.extend({
   },
 
 
-  onAdd(map) {
-    msg('PlaygroundItem.onAdd', map, this._node);
+  onAdd(/* map */) {
+    msg('PlaygroundItem.onAdd');
   },
 
 
-  onRemove(map) {
-    msg('PlaygroundItem.onRemove', map);
+  onRemove(/* map */) {
+    msg('PlaygroundItem.onRemove');
   },
 });
